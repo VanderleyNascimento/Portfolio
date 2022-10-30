@@ -1,0 +1,70 @@
+[33mcommit db8fa48b17597cbb6e99a1349ffd5c82887cda71[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: e7b67f8 ef65e74
+Author: Vanderley Nascimento <61124785+VanderleyNascimento@users.noreply.github.com>
+Date:   Mon Oct 24 22:04:09 2022 -0300
+
+    Merge pull request #1 from VanderleyNascimento/main
+    
+    Main
+
+[33mcommit ef65e745978b55edd6254f4d56ff2c153cbf240a[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Vanderley Nascimento <61124785+VanderleyNascimento@users.noreply.github.com>
+Date:   Tue Oct 25 01:02:37 2022 +0000
+
+    Começando a tratar.
+
+[33mcommit e6f5c7f4ff90f79734b6fa780e2435706d62bc5b[m
+Merge: dfa655c e7b67f8
+Author: Vanderley Nascimento <61124785+VanderleyNascimento@users.noreply.github.com>
+Date:   Tue Oct 25 01:01:32 2022 +0000
+
+    Merge remote-tracking branch 'origin/master' into main
+
+[33mcommit dfa655c47a0327621ddf528d1ff622031f4c03f8[m
+Author: Vanderley Nascimento <61124785+VanderleyNascimento@users.noreply.github.com>
+Date:   Tue Oct 25 01:01:29 2022 +0000
+
+    Initial commit
+
+[33mcommit e7b67f80d47be835689ec0defe965c4cf39cf229[m
+Merge: 1ca698d 1263898
+Author: Vanderley Nascimento <61124785+VanderleyNascimento@users.noreply.github.com>
+Date:   Thu Oct 20 17:25:37 2022 +0000
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 12638985189a15d5f596349d187d44e782da0a9b[m
+Author: olive <olive@VANDERLEY>
+Date:   Thu Sep 15 15:57:36 2022 -0300
+
+    Adicionar .gitignore e .gitattributes.
+
+[33mcommit 1ca698d4a116bf406bca744fcc57f6d0729174cd[m
+Author: Lilykhan <lilykhan9692@gmail.com>
+Date:   Sat May 16 12:56:36 2020 +0000
+
+    colors update
+
+[33mcommit 3f2d2ecf10a85692aaf9e2b583aa493e05948799[m
+Author: Lilykhan <47777673+Lilykhan786@users.noreply.github.com>
+Date:   Fri May 15 12:41:17 2020 +0530
+
+    updated readme
+
+[33mcommit 04b2b17612d92bab180ffe47fb4e6b1fe958204d[m
+Author: Lilykhan <lilykhan9692@gmail.com>
+Date:   Fri May 15 07:05:37 2020 +0000
+
+    added readme
+
+[33mcommit 2e9e5d525b663ea55f223e82bf1ed8cdd2872be8[m
+Author: Lilykhan <lilykhan9692@gmail.com>
+Date:   Thu May 14 13:55:41 2020 +0000
+
+    Site
+
+[33mcommit aaaf7f9711276fc7dfc9be388758cd54f46f9d3b[m
+Author: Lilykhan <lilykhan9692@gmail.com>
+Date:   Wed May 13 14:10:00 2020 +0000
+
+    Initial commit

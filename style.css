@@ -1,10 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+body {
+	height: 100vh;
+	 background: linear-gradient(90deg,#e52e71,#ff8a00);
+  
+  }
+  
+  /*────────────────── 
+       Background
+──────────────────*/
+  .slider-thumb::before {
+	  position: fixed;
+	  content: "";
+	  left: 30%;
+	  top: 20%;
+	  width: 450px;
+	  height: 450px;
+	  background: #17141d;
+	  border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+	  will-change: border-radius, transform, opacity;
+	  animation: sliderShape 5s linear infinite;
+	  display: block;
+	  z-index: -1;
+	  -webkit-animation: sliderShape 5s linear infinite;
+  }
+  @keyframes sliderShape{
+	0%,100%{
+	border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+	  transform: translate3d(0,0,0) rotateZ(0.01deg);
+	}
+	34%{
+		border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+	  transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+	}
+	50%{
+	  transform: translate3d(0,0,0) rotateZ(0.01deg);
+	}
+	67%{
+	  border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+	  transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+	}
+  }
+  
+
+
+
+/*────────────────── 
+       	Inicio
+──────────────────*/
+
 :root{
-	--main-background: #0b0c0f;
+	/*--main-background: #0b0c0f;*/
 	--main-fonts-color: #fff;
-	--main-decor-color:#00a9e2;
-    --main-header-background:#21252e;
+	--main-decor-color:#e26d00;
+    --main-header-background:#252525;
 	--main-font-family: 'Poppins', sans-serif;
 }
 
@@ -93,9 +142,9 @@ a.nav-link{
 }
 
 #home .filter{
-	background: url('https://images.unsplash.com/photo-1544099858-75feeb57f01b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat;
-	background-size: cover;
-	background-position:center;
+	/*background: url('https://images.unsplash.com/photo-1544099858-75feeb57f01b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat;*/
+	/*background-size: cover;
+	background-position:center;*/
     position: absolute;
     top: 0px;
     bottom: 0;
