@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="form.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   </head> 
+<body>
+  <div class="container">
+    <div class="title">Solicitação de Curriculo</div>
+    <div class="content">
+
+      <form action="https://formsubmit.co/conta.vanderleynascimento@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="folder/folder.html">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="folder/folder.html">
+        <!--<input type="hidden" name="_autoresponse" value="enviado com sucesso!! "> -->
+         
+
+        
+        
+
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Nome completo</span>
+            <input type="text" name="Nome" onkeypress="return lettersOnly(event);" placeholder="Digite seu nome completo" required>
+          </div>
+        
+          <div class="input-box">
+            <span class="details">Seu melhor email</span>
+            <input type="email" name="email" placeholder="Digite seu email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Numero de Telefone</span>
+            <input type="text" name="Numero" onkeypress="return numberOnly();" placeholder="Digite seu numero" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="Masculino" id="dot-1">
+          <input type="radio" name="Feminino" id="dot-2">
+          <input type="radio" name="Prefiro não dizer" id="dot-3">
+          <span class="gender-title">Genero</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Masculino</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Feminino</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefiro não dizer</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Solicitar">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="mainForm.js"></script>
+
+</body>
+</html>
