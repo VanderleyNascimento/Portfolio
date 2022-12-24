@@ -282,6 +282,79 @@ a.nav-link{
 }
 
 /*──────────────────
+      Curriculo
+──────────────────*/
+
+.box{
+	background-color: rgba(255, 255, 255, 0.192);
+  
+	border-radius: 5px;
+	
+	flex-wrap: wrap;
+  
+	font-family: sans-serif;
+  
+	text-align: center;
+  
+	line-height: 1;
+  
+	-webkit-backdrop-filter: blur(10px);
+  
+	backdrop-filter: blur(5px);
+  
+	padding: 20px 40px;
+  }
+
+#button-hover {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	/*overflow-y: hidden;*/
+  }
+
+button {
+	position: relative;
+	padding: 1em 3em;
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 0 0 0.5em rgb(255, 0, 0);
+	background-color: rgb(255, 96, 5);
+	border: 0.25em solid rgb(193, 236, 236);
+	border-radius: 1em;
+	/*box-shadow: 0 0 1em 0.25em rgb(110, 237, 237),
+	  0 0 4em 1em rgba(65, 243, 243, 0.781),
+	  inset 0 0 0.75em 0.25em rgb(110, 237, 237);*/
+	outline: none;
+	cursor: pointer;
+	transition: all 0.3s;
+  }
+  
+  button::after {
+	content: "";
+	position: absolute;
+	top: 120%;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	/*background-color: rgba(65, 243, 243, 0.781);*/
+	filter: blur(2em);
+	opacity: 0.7;
+	pointer-events: none;
+	transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+  }
+  
+  button:hover {
+	color: rgb(255, 255, 255);
+	background-color: #0b3fda;
+	/*box-shadow: 0 0 1em 0.25em rgb(110, 237, 237),
+	  0 0 4em 2em rgba(65, 243, 243, 0.781),
+	  inset 0 0 0.75em 0.25em rgb(110, 237, 237);*/
+  }
+
+/*──────────────────
       Contact
 ──────────────────*/
 
