@@ -11,7 +11,9 @@ body{
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(90deg,#e52e71,#ff8a00);
+  /*background: linear-gradient(90deg,#e52e71,#ff8a00);*/
+  background: linear-gradient(90deg,#CF0A0A,#DC5F00);
+
   /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
 }
 .container{
